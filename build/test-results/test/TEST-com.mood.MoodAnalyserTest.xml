@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.mood.MoodAnalyserTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-12-27T06:05:13" hostname="admin1-Inspiron-3542" time="0.014">
+  <properties/>
+  <testcase name="givenMood_WhenEmpty_ShouldReturnMoodAnalyserExccption" classname="com.mood.MoodAnalyserTest" time="0.007"/>
+  <testcase name="givenMood_ShouldReturnSad" classname="com.mood.MoodAnalyserTest" time="0.001"/>
+  <testcase name="givenNullMood_ShoudReturnHappy" classname="com.mood.MoodAnalyserTest" time="0.001"/>
+  <testcase name="whenGivenSadMsgWithSAlphabetCapital_ShouldReturnSad" classname="com.mood.MoodAnalyserTest" time="0.0"/>
+  <testcase name="givenHappyMsg_ShouldReturnHappy" classname="com.mood.MoodAnalyserTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
