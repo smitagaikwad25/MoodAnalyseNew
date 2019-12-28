@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.mood.MoodAnalyserTest" tests="1" skipped="1" failures="0" errors="0" timestamp="2019-12-27T07:03:35" hostname="admin1-Inspiron-3542" time="22456.01">
+<testsuite name="com.mood.MoodAnalyserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-28T06:25:38" hostname="admin1-Inspiron-3542" time="0.005">
   <properties/>
-  <testcase name="givenMoodAnalyser_WhenProper_ShouldReturnObject" classname="com.mood.MoodAnalyserTest" time="22456.01">
-    <skipped/>
-  </testcase>
+  <testcase name="givenMoodAnalyserClassName_WhenNotProper_ShouldReturnObject" classname="com.mood.MoodAnalyserTest" time="0.005"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
