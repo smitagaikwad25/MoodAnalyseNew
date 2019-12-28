@@ -27,9 +27,6 @@ public class ObjectReflector {
                         value.getClass() == java.lang.Boolean.class) {
                     buffer.append(value);
                 } else buffer.append(dump(value, callCount));
-
-
-
             }
             buffer.append(tabs.toString());
             buffer.append("]\n");
