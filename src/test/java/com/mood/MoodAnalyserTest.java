@@ -198,6 +198,31 @@ public class MoodAnalyserTest {
             e.printStackTrace();
         }
     }
+
+    @Test
+    public void givenFieldName_Improper_ShouldThrowMoodAnalysisException() throws InvocationTargetException, IllegalAccessException {
+        try {
+            Class<?> aClass = Class.forName("com.mood.MoodAnalyser");
+            Constructor<?> constructor = aClass.getConstructor(String.class);
+            Field field = aClass.getField("message123");
+            Object instance = constructor.newInstance("i am happy");
+            Method method = aClass.getDeclaredMethod("analyser");
+            Object objectInvoked = method.invoke(instance);
+            Assert.assertEquals(objectInvoked.toString(), "happy");
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (NoSuchMethodException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (InvocationTargetException e) {
+            e.printStackTrace();
+        } catch (InstantiationException e) {
+            e.printStackTrace();
+        } catch (NoSuchFieldException e) {
+            e.getMessage();
+        }
+    }
 }
 
 
