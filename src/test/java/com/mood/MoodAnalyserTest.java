@@ -4,6 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
@@ -97,9 +98,8 @@ public class MoodAnalyserTest {
 
         } catch (NoSuchMethodException e) {
             try {
-                throw new MoodAnalyserException(MoodAnalyserException.ExceptionType.NO_SUCH_MOTHOD, "Plz Enter valid method name");
-            }
-            catch (MoodAnalyserException a) {
+                throw new MoodAnalyserException(MoodAnalyserException.ExceptionType.NO_SUCH_METHOD, "Plz Enter valid method name");
+            } catch (MoodAnalyserException a) {
                 a.printStackTrace();
             }
         } catch (ClassNotFoundException e) {
@@ -119,9 +119,8 @@ public class MoodAnalyserTest {
 
         } catch (NoSuchMethodException e) {
             try {
-                throw new MoodAnalyserException(MoodAnalyserException.ExceptionType.NO_SUCH_MOTHOD, "Plz Enter valid method name");
-            }
-            catch (MoodAnalyserException a) {
+                throw new MoodAnalyserException(MoodAnalyserException.ExceptionType.NO_SUCH_METHOD, "Plz Enter valid method name");
+            } catch (MoodAnalyserException a) {
                 a.printStackTrace();
             }
         } catch (ClassNotFoundException e) {
@@ -138,7 +137,7 @@ public class MoodAnalyserTest {
         Constructor constructor = MoodAnalyserReflection.getConstructor(String.class);
         Object object = MoodAnalyserReflection.getObject(constructor, "i am happy");
         MoodAnalyser object1 = (MoodAnalyser) object;
-        Assert.assertEquals(true,object1.equals(new MoodAnalyser("i am happy")));
+        Assert.assertEquals(true, object1.equals(new MoodAnalyser("i am happy")));
     }
 
     @Test
@@ -146,7 +145,7 @@ public class MoodAnalyserTest {
         Constructor constructor = MoodAnalyserReflection.getConstructor();
         Object object = MoodAnalyserReflection.getObject(constructor);
         MoodAnalyser object1 = (MoodAnalyser) object;
-        Assert.assertEquals(true,object1.equals(new MoodAnalyser()));
+        Assert.assertEquals(true, object1.equals(new MoodAnalyser()));
     }
 
     @Test
@@ -157,7 +156,7 @@ public class MoodAnalyserTest {
             Object instance = constructor.newInstance("i am happy");
             Method method = aClass.getDeclaredMethod("analyser");
             Object objectInvoked = method.invoke(instance);
-            Assert.assertEquals(objectInvoked.toString(),"happy");
+            Assert.assertEquals(objectInvoked.toString(), "happy");
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         } catch (NoSuchMethodException e) {
@@ -175,8 +174,29 @@ public class MoodAnalyserTest {
     public void givenReflectorMethodName_WhenProper_ShouldReturnReturnMessage() throws InvocationTargetException, IllegalAccessException, NoSuchMethodException {
         Method method = MoodAnalyserReflection.getMethod("analyser");
         String message = (String) method.invoke(new MoodAnalyser("i am happy"));
-        Assert.assertEquals("happy",message);
+        Assert.assertEquals("happy", message);
+    }
 
+    @Test
+    public void givenMethodName_Improper_ShouldThrowMoodAnalysisException() throws InvocationTargetException, IllegalAccessException {
+        try {
+            Class<?> aClass = Class.forName("com.mood.MoodAnalyser");
+            Constructor<?> constructor = aClass.getConstructor(String.class);
+            Object instance = constructor.newInstance("i am happy");
+            Method method = aClass.getDeclaredMethod("analyser123");
+            Object objectInvoked = method.invoke(instance);
+            Assert.assertEquals(objectInvoked.toString(), "happy");
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (NoSuchMethodException e) {
+            e.getMessage();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (InvocationTargetException e) {
+            e.printStackTrace();
+        } catch (InstantiationException e) {
+            e.printStackTrace();
+        }
     }
 }
 
