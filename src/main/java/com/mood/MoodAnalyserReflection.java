@@ -2,8 +2,9 @@ package com.mood;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 
-public class MoodAnalyserFactory {
+public class MoodAnalyserReflection {
 
 
     public static MoodAnalyser createMoodAnalyser(String message) {
@@ -37,7 +38,6 @@ public class MoodAnalyserFactory {
         } catch (NoSuchMethodException e) {
             e.printStackTrace();
         }
-
         return null;
     }
 
@@ -53,4 +53,6 @@ public class MoodAnalyserFactory {
         }
         return moodObj;
     }
+
 }
+

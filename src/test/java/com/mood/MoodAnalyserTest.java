@@ -2,12 +2,10 @@ package com.mood;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.junit.rules.ExpectedException;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
-
-import static com.mood.MoodAnalyserException.ExceptionType.NO_SUCH_CLASS;
+import java.lang.reflect.Method;
 
 public class MoodAnalyserTest {
     @Test
@@ -79,7 +77,7 @@ public class MoodAnalyserTest {
 
     @Test
     public void givenMoodAnalyserClass_WhenProper_ShouldReturnObject() {
-        MoodAnalyser moodAnalyser = MoodAnalyserFactory.createMoodAnalyser("i m happy");
+        MoodAnalyser moodAnalyser = MoodAnalyserReflection.createMoodAnalyser("i m happy");
         String message = moodAnalyser.analyser();
         Assert.assertEquals("happy", message);
     }
@@ -87,7 +85,7 @@ public class MoodAnalyserTest {
     @Test
     public void givenObjectWithProperMessage_shouldReturnTrue() {
         MoodAnalyser moodAnalyser = new MoodAnalyser("i am happy");
-        MoodAnalyser moodAnalyser1 = MoodAnalyserFactory.createMoodAnalyser("i am happy");
+        MoodAnalyser moodAnalyser1 = MoodAnalyserReflection.createMoodAnalyser("i am happy");
         Assert.assertEquals(true, moodAnalyser.equals(moodAnalyser1));
     }
 
@@ -137,24 +135,44 @@ public class MoodAnalyserTest {
 
     @Test
     public void givenConstrutor_WithPram_ShouldReturnObject() throws IllegalAccessException, InstantiationException, InvocationTargetException {
-        Constructor constructor = MoodAnalyserFactory.getConstructor(String.class);
-        Object object = MoodAnalyserFactory.getObject(constructor, "i am happy");
+        Constructor constructor = MoodAnalyserReflection.getConstructor(String.class);
+        Object object = MoodAnalyserReflection.getObject(constructor, "i am happy");
         MoodAnalyser object1 = (MoodAnalyser) object;
         Assert.assertEquals(true,object1.equals(new MoodAnalyser("i am happy")));
     }
 
     @Test
     public void givenConstructor_withoutParam_ShouldReturnObject() throws IllegalAccessException, InstantiationException, InvocationTargetException {
-        Constructor constructor = MoodAnalyserFactory.getConstructor();
-        Object object = MoodAnalyserFactory.getObject(constructor);
+        Constructor constructor = MoodAnalyserReflection.getConstructor();
+        Object object = MoodAnalyserReflection.getObject(constructor);
         MoodAnalyser object1 = (MoodAnalyser) object;
         Assert.assertEquals(true,object1.equals(new MoodAnalyser()));
     }
+
+    @Test
+    public void givenMethodName_whenProper_ShouldRetunProerMessage() {
+        try {
+            Class<?> aClass = Class.forName("com.mood.MoodAnalyser");
+            Constructor<?> constructor = aClass.getConstructor(String.class);
+            Object instance = constructor.newInstance("i am happy");
+            Method method = aClass.getDeclaredMethod("analyser");
+            Object objectInvoked = method.invoke(instance);
+            Assert.assertEquals(objectInvoked.toString(),"happy");
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (NoSuchMethodException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (InvocationTargetException e) {
+            e.printStackTrace();
+        } catch (InstantiationException e) {
+            e.printStackTrace();
+        }
+    }
+
+
 }
-
-
-
-
 
 
 
