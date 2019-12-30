@@ -25,4 +25,32 @@ public class MoodAnalyserFactory {
         }
         return null;
     }
+
+    public static Constructor getConstructor(Class<?>... parameter) {
+        try {
+            Class<?> aClass = Class.forName("com.mood.MoodAnalyser");
+            Constructor<?> constructor = aClass.getConstructor(parameter);
+
+            return constructor;
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (NoSuchMethodException e) {
+            e.printStackTrace();
+        }
+
+        return null;
+    }
+
+    public static Object getObject(Constructor constructor, String... message) {
+        Object moodObj = null;
+        try {
+            moodObj = constructor.newInstance(message);
+        } catch (InstantiationException e) {
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (InvocationTargetException e) {
+            e.printStackTrace();
+        }
+        return moodObj;
+    }
 }

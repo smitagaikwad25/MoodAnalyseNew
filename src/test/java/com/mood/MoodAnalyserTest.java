@@ -92,30 +92,70 @@ public class MoodAnalyserTest {
     }
 
     @Test
-    public void givenMoodAnalyserClassName_WhenNotProper_ShouldReturnMoodAnalyser() {
+    public void givenClass_WhenNotProper_ShouldReturnMoodAnalyser() {
         Constructor<?> constructor = null;
         try {
-            constructor = Class.forName("com.mood.MoodAnalyser123").getConstructor(String.class);
-            Object myObj = constructor.newInstance("I am in Happy");
-            MoodAnalyser moodAnalyser = (MoodAnalyser) myObj;
-            String message = moodAnalyser.analyser();
-            Assert.assertEquals("happy", message);
+            constructor = Class.forName("com.mood.MoodAnalyser111").getConstructor(Integer.class);
+
         } catch (NoSuchMethodException e) {
-            e.printStackTrace();
+            try {
+                throw new MoodAnalyserException(MoodAnalyserException.ExceptionType.NO_SUCH_MOTHOD, "Plz Enter valid method name");
+            }
+            catch (MoodAnalyserException a) {
+                a.printStackTrace();
+            }
         } catch (ClassNotFoundException e) {
             try {
                 throw new MoodAnalyserException(MoodAnalyserException.ExceptionType.NO_SUCH_CLASS, "Plz Enter valid class name");
             } catch (MoodAnalyserException ex) {
                 ex.getMessage();
             }
-        } catch (InstantiationException e) {
-            e.printStackTrace();
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (InvocationTargetException e) {
-            e.printStackTrace();
         }
     }
 
+    @Test
+    public void givenMethod_WhenNotProper_ShouldReturnMoodAnalyser() {
+        Constructor<?> constructor = null;
+        try {
+            constructor = Class.forName("com.mood.MoodAnalyser").getConstructor(Integer.class);
 
+        } catch (NoSuchMethodException e) {
+            try {
+                throw new MoodAnalyserException(MoodAnalyserException.ExceptionType.NO_SUCH_MOTHOD, "Plz Enter valid method name");
+            }
+            catch (MoodAnalyserException a) {
+                a.printStackTrace();
+            }
+        } catch (ClassNotFoundException e) {
+            try {
+                throw new MoodAnalyserException(MoodAnalyserException.ExceptionType.NO_SUCH_CLASS, "Plz Enter valid class name");
+            } catch (MoodAnalyserException ex) {
+                ex.getMessage();
+            }
+        }
+    }
+
+    @Test
+    public void givenConstrutor_WithPram_ShouldReturnObject() throws IllegalAccessException, InstantiationException, InvocationTargetException {
+        Constructor constructor = MoodAnalyserFactory.getConstructor(String.class);
+        Object object = MoodAnalyserFactory.getObject(constructor, "i am happy");
+        MoodAnalyser object1 = (MoodAnalyser) object;
+        Assert.assertEquals(true,object1.equals(new MoodAnalyser("i am happy")));
+    }
+
+    @Test
+    public void givenConstructor_withoutParam_ShouldReturnObject() throws IllegalAccessException, InstantiationException, InvocationTargetException {
+        Constructor constructor = MoodAnalyserFactory.getConstructor();
+        Object object = MoodAnalyserFactory.getObject(constructor);
+        MoodAnalyser object1 = (MoodAnalyser) object;
+        Assert.assertEquals(true,object1.equals(new MoodAnalyser()));
+    }
 }
+
+
+
+
+
+
+
+

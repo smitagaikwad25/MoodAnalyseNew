@@ -2,7 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="907dff66-4256-48c3-a14b-66bf47ba0593" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mood/MoodAnalyser.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mood/MoodAnalyser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mood/MoodAnalyserException$ExceptionType.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mood/MoodAnalyserException$ExceptionType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mood/MoodAnalyserFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mood/MoodAnalyserFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/mood/MoodAnalyserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/mood/MoodAnalyserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.mood.MoodAnalyserTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.mood.MoodAnalyserTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.mood.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.mood.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.mood.MoodAnalyserTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.mood.MoodAnalyserTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mood/MoodAnalyser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mood/MoodAnalyser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mood/MoodAnalyserException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mood/MoodAnalyserException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mood/MoodAnalyserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mood/MoodAnalyserFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/mood/MoodAnalyserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mood/MoodAnalyserTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,11 +58,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/mood/MoodAnalyserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="105" column="125" selection-start-line="105" selection-start-column="125" selection-end-line="105" selection-end-column="125" />
+            <state relative-caret-position="120">
+              <caret line="150" selection-start-line="150" selection-end-line="150" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,19 +71,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mood/MoodAnalyser.java">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Assert.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+            <state relative-caret-position="120">
+              <caret line="143" selection-start-line="143" selection-end-line="143" />
+              <folding>
+                <element signature="e#3920#3921#0" expanded="true" />
+                <element signature="e#3966#3967#0" expanded="true" />
+                <element signature="e#4455#4456#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mood/MoodAnalyser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="409">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mood/MoodAnalyserFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+            <state relative-caret-position="375">
+              <caret line="49" column="32" lean-forward="true" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mood/MoodAnalyserException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -81,7 +117,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mood/ObjectReflector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
+            <state relative-caret-position="435">
               <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -110,10 +146,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mood/ObjectReflection.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mood/ObjectReflector" />
         <option value="$PROJECT_DIR$/src/main/java/com/mood/ObjectReflector.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mood/MoodAnalyserFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mood/MoodAnalyser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mood/MoodAnalyserException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mood/MoodAnalyser.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mood/MoodAnalyserTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mood/MoodAnalyserFactory.java" />
       </list>
     </option>
   </component>
@@ -135,6 +171,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,7 +231,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,13 +258,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.MoodAnalyserTest.givenMoodAnalyserClassName_WhenNotProper_ShouldReturnObject">
-    <configuration name="MoodAnalyserTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.MoodAnalyserTest.givenConstructor_withoutParam_ShouldReturnObject">
+    <configuration name="MoodAnalyserTest.givenClass_WhenNotProper_ShouldReturnMoodAnalyser" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.mood.MoodAnalyserTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.mood.MoodAnalyserTest.givenClass_WhenNotProper_ShouldReturnMoodAnalyser&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -243,12 +279,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MoodAnalyserTest.givenMoodAnalyserClassName_WhenNotProper_ShouldReturnObject" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MoodAnalyserTest.givenConstructor_withoutParam_ShouldReturnObject" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.mood.MoodAnalyserTest.givenMoodAnalyserClassName_WhenNotProper_ShouldReturnObject&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.mood.MoodAnalyserTest.givenConstructor_withoutParam_ShouldReturnObject&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -263,12 +299,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MoodAnalyserTest.givenMoodAnalyser_WhenProper_ShouldReturnObject" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MoodAnalyserTest.givenConstrutor_WithPram_ShouldReturnObject" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.mood.MoodAnalyserTest.givenMoodAnalyser_WhenProper_ShouldReturnObject&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.mood.MoodAnalyserTest.givenConstrutor_WithPram_ShouldReturnObject&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -283,12 +319,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MoodAnalyserTest.givenMood_ShouldReturnSad" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MoodAnalyserTest.givenConstrutor_WithoutPram_ShouldReturnObject" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.mood.MoodAnalyserTest.givenMood_ShouldReturnSad&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.mood.MoodAnalyserTest.givenConstrutor_WithoutPram_ShouldReturnObject&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -303,12 +339,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MoodAnalyserTest.givenObjectWithProperMessage_shouldReturnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MoodAnalyserTest.givenMethod_WhenNotProper_ShouldReturnMoodAnalyser" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.mood.MoodAnalyserTest.givenObjectWithProperMessage_shouldReturnTrue&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.mood.MoodAnalyserTest.givenMethod_WhenNotProper_ShouldReturnMoodAnalyser&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -325,11 +361,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MoodAnalyserTest.givenMoodAnalyserClassName_WhenNotProper_ShouldReturnObject" />
-        <item itemvalue="Gradle.MoodAnalyserTest.givenObjectWithProperMessage_shouldReturnTrue" />
-        <item itemvalue="Gradle.MoodAnalyserTest.givenMoodAnalyser_WhenProper_ShouldReturnObject" />
-        <item itemvalue="Gradle.MoodAnalyserTest" />
-        <item itemvalue="Gradle.MoodAnalyserTest.givenMood_ShouldReturnSad" />
+        <item itemvalue="Gradle.MoodAnalyserTest.givenConstructor_withoutParam_ShouldReturnObject" />
+        <item itemvalue="Gradle.MoodAnalyserTest.givenConstrutor_WithPram_ShouldReturnObject" />
+        <item itemvalue="Gradle.MoodAnalyserTest.givenConstrutor_WithoutPram_ShouldReturnObject" />
+        <item itemvalue="Gradle.MoodAnalyserTest.givenClass_WhenNotProper_ShouldReturnMoodAnalyser" />
+        <item itemvalue="Gradle.MoodAnalyserTest.givenMethod_WhenNotProper_ShouldReturnMoodAnalyser" />
       </list>
     </recent_temporary>
   </component>
@@ -347,42 +383,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MoodAnalyserTest - 2019.12.27 at 11h 35m 13s.xml">
-      <configuration name="MoodAnalyserTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="MoodAnalyserTest_givenConstrutor_WithPram_ShouldReturnObject - 2019.12.30 at 11h 17m 56s.xml">
+      <configuration name="MoodAnalyserTest.givenConstrutor_WithPram_ShouldReturnObject" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="MoodAnalyserTest_givenMoodAnalyser_WhenProper_ShouldReturnObject - 2019.12.27 at 12h 11m 37s.xml">
-      <configuration name="MoodAnalyserTest.givenMoodAnalyser_WhenProper_ShouldReturnObject" configurationId="GradleRunConfiguration" />
+    <history-entry file="MoodAnalyserTest_givenConstrutor_WithPram_ShouldReturnObject - 2019.12.30 at 11h 24m 34s.xml">
+      <configuration name="MoodAnalyserTest.givenConstrutor_WithPram_ShouldReturnObject" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="MoodAnalyserTest - 2019.12.27 at 12h 14m 40s.xml">
-      <configuration name="MoodAnalyserTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="MoodAnalyserTest_givenConstrutor_WithPram_ShouldReturnObject - 2019.12.30 at 11h 24m 40s.xml">
+      <configuration name="MoodAnalyserTest.givenConstrutor_WithPram_ShouldReturnObject" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="MoodAnalyserTest_givenMoodAnalyser_WhenProper_ShouldReturnObject - 2019.12.27 at 12h 27m 35s.xml">
-      <configuration name="MoodAnalyserTest.givenMoodAnalyser_WhenProper_ShouldReturnObject" configurationId="GradleRunConfiguration" />
+    <history-entry file="MoodAnalyserTest_givenConstrutor_WithPram_ShouldReturnObject - 2019.12.30 at 11h 25m 16s.xml">
+      <configuration name="MoodAnalyserTest.givenConstrutor_WithPram_ShouldReturnObject" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="MoodAnalyserTest_givenMoodAnalyser_WhenProper_ShouldReturnObject - 2019.12.27 at 12h 27m 40s.xml">
-      <configuration name="MoodAnalyserTest.givenMoodAnalyser_WhenProper_ShouldReturnObject" configurationId="GradleRunConfiguration" />
+    <history-entry file="MoodAnalyserTest_givenConstructor_withoutParam_ShouldReturnObject - 2019.12.30 at 11h 37m 56s.xml">
+      <configuration name="MoodAnalyserTest.givenConstructor_withoutParam_ShouldReturnObject" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="MoodAnalyserTest_givenObjectWithProperMessage_shouldReturnTrue - 2019.12.27 at 16h 36m 32s.xml">
-      <configuration name="MoodAnalyserTest.givenObjectWithProperMessage_shouldReturnTrue" configurationId="GradleRunConfiguration" />
+    <history-entry file="MoodAnalyserTest_givenConstructor_withoutParam_ShouldReturnObject - 2019.12.30 at 11h 38m 58s.xml">
+      <configuration name="MoodAnalyserTest.givenConstructor_withoutParam_ShouldReturnObject" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="MoodAnalyserTest_givenObjectWithProperMessage_shouldReturnTrue - 2019.12.28 at 11h 07m 29s.xml">
-      <configuration name="MoodAnalyserTest.givenObjectWithProperMessage_shouldReturnTrue" configurationId="GradleRunConfiguration" />
+    <history-entry file="MoodAnalyserTest_givenConstructor_withoutParam_ShouldReturnObject - 2019.12.30 at 11h 40m 06s.xml">
+      <configuration name="MoodAnalyserTest.givenConstructor_withoutParam_ShouldReturnObject" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="MoodAnalyserTest_givenMoodAnalyserClassName_WhenNotProper_ShouldReturnObject - 2019.12.28 at 11h 28m 49s.xml">
-      <configuration name="MoodAnalyserTest.givenMoodAnalyserClassName_WhenNotProper_ShouldReturnObject" configurationId="GradleRunConfiguration" />
+    <history-entry file="MoodAnalyserTest_givenConstructor_withoutParam_ShouldReturnObject - 2019.12.30 at 11h 41m 34s.xml">
+      <configuration name="MoodAnalyserTest.givenConstructor_withoutParam_ShouldReturnObject" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="MoodAnalyserTest_givenMoodAnalyserClassName_WhenNotProper_ShouldReturnObject - 2019.12.28 at 11h 46m 50s.xml">
-      <configuration name="MoodAnalyserTest.givenMoodAnalyserClassName_WhenNotProper_ShouldReturnObject" configurationId="GradleRunConfiguration" />
+    <history-entry file="MoodAnalyserTest_givenConstructor_withoutParam_ShouldReturnObject - 2019.12.30 at 11h 41m 46s.xml">
+      <configuration name="MoodAnalyserTest.givenConstructor_withoutParam_ShouldReturnObject" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="MoodAnalyserTest_givenMoodAnalyserClassName_WhenNotProper_ShouldReturnObject - 2019.12.28 at 11h 48m 05s.xml">
-      <configuration name="MoodAnalyserTest.givenMoodAnalyserClassName_WhenNotProper_ShouldReturnObject" configurationId="GradleRunConfiguration" />
+    <history-entry file="MoodAnalyserTest_givenConstructor_withoutParam_ShouldReturnObject - 2019.12.30 at 11h 48m 53s.xml">
+      <configuration name="MoodAnalyserTest.givenConstructor_withoutParam_ShouldReturnObject" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18994413" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1963288" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -392,13 +428,13 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.057003256" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.13192183" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2198697" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.048859935" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3306189" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.048859935" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32954547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -457,6 +493,18 @@
           <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/mood/MoodAnalyserTest.java</url>
+          <line>97</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/mood/MoodAnalyserTest.java</url>
+          <line>147</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -465,25 +513,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Assert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="144" selection-start-line="144" selection-end-line="144" />
-          <folding>
-            <element signature="e#3920#3921#0" expanded="true" />
-            <element signature="e#3966#3967#0" expanded="true" />
-            <element signature="e#4403#4404#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/statements/InvokeMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -512,18 +541,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="330" selection-start-line="330" selection-end-line="330" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mood/ObjectReflector" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runner/notification/SynchronizedRunListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="71">
           <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mood/ObjectReflector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mood/MoodAnalyserException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/BlockJUnit4ClassRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="370" selection-start-line="370" selection-end-line="370" />
+          <folding>
+            <element signature="e#2922#2923#0" expanded="true" />
+            <element signature="e#2966#2967#0" expanded="true" />
+            <element signature="e#10310#10449#0" expanded="true" />
+            <element signature="e#10448#10449#0" expanded="true" />
+            <element signature="e#11040#11204#0" expanded="true" />
+            <element signature="e#11203#11204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/statements/InvokeMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -537,53 +614,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mood/MoodAnalyserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mood/ObjectReflector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+        <state relative-caret-position="120">
+          <caret line="150" selection-start-line="150" selection-end-line="150" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mood/MoodAnalyserException.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Assert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mood/MoodAnalyserFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        <state relative-caret-position="120">
+          <caret line="143" selection-start-line="143" selection-end-line="143" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#3920#3921#0" expanded="true" />
+            <element signature="e#3966#3967#0" expanded="true" />
+            <element signature="e#4455#4456#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mood/MoodAnalyser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        <state relative-caret-position="409">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mood/MoodAnalyserTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mood/MoodAnalyserFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="105" column="125" selection-start-line="105" selection-start-column="125" selection-end-line="105" selection-end-column="125" />
+        <state relative-caret-position="375">
+          <caret line="49" column="32" lean-forward="true" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
