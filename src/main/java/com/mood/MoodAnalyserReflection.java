@@ -50,6 +50,8 @@ public class MoodAnalyserReflection {
             e.printStackTrace();
         } catch (InvocationTargetException e) {
             e.printStackTrace();
+        }catch (NullPointerException e){
+            throw new MoodAnalyserException(MoodAnalyserException.ExceptionType.ENTER_NULL,"enter Proper message");
         }
         return moodObj;
     }

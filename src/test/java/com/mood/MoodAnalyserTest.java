@@ -178,52 +178,43 @@ public class MoodAnalyserTest {
     }
 
     @Test
-    public void givenMethodName_Improper_ShouldThrowMoodAnalysisException() throws InvocationTargetException, IllegalAccessException {
+    public void givenReflectorMethodName_WhenImProper_ShouldReturnReturnMessage() throws InvocationTargetException, IllegalAccessException, NoSuchMethodException {
         try {
-            Class<?> aClass = Class.forName("com.mood.MoodAnalyser");
-            Constructor<?> constructor = aClass.getConstructor(String.class);
-            Object instance = constructor.newInstance("i am happy");
-            Method method = aClass.getDeclaredMethod("analyser123");
-            Object objectInvoked = method.invoke(instance);
-            Assert.assertEquals(objectInvoked.toString(), "happy");
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        } catch (NoSuchMethodException e) {
-            e.getMessage();
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (InvocationTargetException e) {
-            e.printStackTrace();
-        } catch (InstantiationException e) {
+            Method method = MoodAnalyserReflection.getMethod("analyser123");
+            String message = (String) method.invoke(new MoodAnalyser("i am happy"));
+            Assert.assertEquals("happy", message);
+        } catch (MoodAnalyserException e) {
             e.printStackTrace();
         }
+
     }
 
     @Test
-    public void givenFieldName_Improper_ShouldThrowMoodAnalysisException() throws InvocationTargetException, IllegalAccessException {
+    public void givenReflectorField_WhenImProper_ShouldReturnReturnMessage() throws InvocationTargetException, IllegalAccessException, NoSuchMethodException {
         try {
-            Class<?> aClass = Class.forName("com.mood.MoodAnalyser");
-            Constructor<?> constructor = aClass.getConstructor(String.class);
-            Field field = aClass.getField("message123");
-            Object instance = constructor.newInstance("i am happy");
-            Method method = aClass.getDeclaredMethod("analyser");
-            Object objectInvoked = method.invoke(instance);
-            Assert.assertEquals(objectInvoked.toString(), "happy");
+            Field fieldName = Class.forName("com.mood.MoodAnalyser").getField("message123");
+            Assert.assertEquals("message", fieldName);
+        } catch (MoodAnalyserException e) {
+            e.printStackTrace();
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
-        } catch (NoSuchMethodException e) {
-            e.printStackTrace();
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (InvocationTargetException e) {
-            e.printStackTrace();
-        } catch (InstantiationException e) {
-            e.printStackTrace();
         } catch (NoSuchFieldException e) {
-            e.getMessage();
+            e.printStackTrace();
         }
+
     }
-}
+
+    @Test
+    public void givenReflectorhasNull_WhenImProper_ShouldReturnReturnMessage() throws InvocationTargetException, IllegalAccessException {
+            try {
+                Constructor constructor = MoodAnalyserReflection.getConstructor(String.class);
+                Object object = MoodAnalyserReflection.getObject(null);
+            }catch (MoodAnalyserException e){
+                e.printStackTrace();
+            }
+        }
+
+    }
 
 
 
