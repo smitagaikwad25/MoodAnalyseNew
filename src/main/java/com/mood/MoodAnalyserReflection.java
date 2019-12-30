@@ -54,5 +54,10 @@ public class MoodAnalyserReflection {
         return moodObj;
     }
 
+    public static Method getMethod(String methodName) throws NoSuchMethodException {
+        Constructor constructor = getConstructor();
+        Object object = getObject(constructor);
+        Method method = object.getClass().getDeclaredMethod(methodName);
+        return method;
+    }
 }
-

@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="907dff66-4256-48c3-a14b-66bf47ba0593" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mood/MoodAnalyserFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/mood/MoodAnalyserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/mood/MoodAnalyserTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.mood.MoodAnalyserTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.mood.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.mood.MoodAnalyserTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mood/MoodAnalyserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mood/MoodAnalyserReflection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mood/MoodAnalyserReflection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mood/MoodAnalyserReflection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/mood/MoodAnalyserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mood/MoodAnalyserTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -58,11 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/mood/MoodAnalyserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="176" column="77" selection-start-line="176" selection-start-column="77" selection-end-line="176" selection-end-column="77" />
+            <state relative-caret-position="395">
+              <caret line="174" column="40" selection-start-line="174" selection-start-column="40" selection-end-line="174" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mood/MoodAnalyserReflection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="59" column="70" lean-forward="true" selection-start-line="59" selection-start-column="70" selection-end-line="59" selection-end-column="70" />
+            <state relative-caret-position="199">
+              <caret line="47" column="44" lean-forward="true" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -144,8 +122,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mood/MoodAnalyserException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mood/MoodAnalyser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mood/MoodAnalyserFactory.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/mood/MoodAnalyserTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mood/MoodAnalyserReflection.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mood/MoodAnalyserTest.java" />
       </list>
     </option>
   </component>
@@ -379,18 +357,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MoodAnalyserTest_givenInvokeMethod_WhenProper_ReturnMsg - 2019.12.30 at 15h 45m 22s.xml">
-      <configuration name="MoodAnalyserTest.givenInvokeMethod_WhenProper_ReturnMsg" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="MoodAnalyserTest_givenInvokeMethod_WhenProper_ReturnMsg - 2019.12.30 at 15h 46m 21s.xml">
-      <configuration name="MoodAnalyserTest.givenInvokeMethod_WhenProper_ReturnMsg" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="MoodAnalyserTest_givenInvokeMethod_WhenProper_ReturnMsg - 2019.12.30 at 15h 46m 22s.xml">
-      <configuration name="MoodAnalyserTest.givenInvokeMethod_WhenProper_ReturnMsg" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="MoodAnalyserTest_givenInvokeMethod_WhenProper_ReturnMsg - 2019.12.30 at 15h 46m 59s.xml">
-      <configuration name="MoodAnalyserTest.givenInvokeMethod_WhenProper_ReturnMsg" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="MoodAnalyserTest_givenInvokeMethod_WhenProper_ReturnMsg - 2019.12.30 at 15h 48m 20s.xml">
       <configuration name="MoodAnalyserTest.givenInvokeMethod_WhenProper_ReturnMsg" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -407,6 +373,18 @@
       <configuration name="MoodAnalyserTest.givenInvokeMethod_WhenProper_ReturnMsg" configurationId="GradleRunConfiguration" />
     </history-entry>
     <history-entry file="MoodAnalyserTest_givenInvokeMethod_WhenProper_ReturnMsg - 2019.12.30 at 15h 55m 52s.xml">
+      <configuration name="MoodAnalyserTest.givenInvokeMethod_WhenProper_ReturnMsg" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="MoodAnalyserTest_givenInvokeMethod_WhenProper_ReturnMsg - 2019.12.30 at 15h 57m 26s.xml">
+      <configuration name="MoodAnalyserTest.givenInvokeMethod_WhenProper_ReturnMsg" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="MoodAnalyserTest_givenInvokeMethod_WhenProper_ReturnMsg - 2019.12.30 at 15h 57m 42s.xml">
+      <configuration name="MoodAnalyserTest.givenInvokeMethod_WhenProper_ReturnMsg" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="MoodAnalyserTest_givenInvokeMethod_WhenProper_ReturnMsg - 2019.12.30 at 16h 03m 29s.xml">
+      <configuration name="MoodAnalyserTest.givenInvokeMethod_WhenProper_ReturnMsg" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="MoodAnalyserTest_givenInvokeMethod_WhenProper_ReturnMsg - 2019.12.30 at 16h 03m 31s.xml">
       <configuration name="MoodAnalyserTest.givenInvokeMethod_WhenProper_ReturnMsg" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
@@ -433,13 +411,13 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3306189" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.048859935" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.048859935" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32899022" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2980456" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.048859935" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32954547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -503,12 +481,6 @@
           <line>95</line>
           <properties />
           <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/mood/MoodAnalyserTest.java</url>
-          <line>175</line>
-          <properties />
-          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -631,16 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mood/MoodAnalyserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="176" column="77" selection-start-line="176" selection-start-column="77" selection-end-line="176" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mood/MoodAnalyser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
@@ -650,8 +612,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mood/MoodAnalyserReflection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="59" column="70" lean-forward="true" selection-start-line="59" selection-start-column="70" selection-end-line="59" selection-end-column="70" />
+        <state relative-caret-position="199">
+          <caret line="47" column="44" lean-forward="true" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mood/MoodAnalyserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="174" column="40" selection-start-line="174" selection-start-column="40" selection-end-line="174" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
